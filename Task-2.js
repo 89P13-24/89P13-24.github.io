@@ -4,7 +4,7 @@ console.log(2);
 
 const getTodos = async () => {
 
-    const response = await fetch('data.json');
+    const response = await fetch('https://www.coursehubiitg.in/api/codingweek/contributions');
     const data = await response.json();
 
    
